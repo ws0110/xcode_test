@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34A2C39E1DBE525C005E8027 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 34A2C39D1DBE525C005E8027 /* main.c */; };
+		34A2C3A61DBE59FB005E8027 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34A2C3A51DBE59FB005E8027 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		34A2C39A1DBE525C005E8027 /* git_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = git_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A2C39D1DBE525C005E8027 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		34A2C3A41DBE551A005E8027 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		34A2C3A51DBE59FB005E8027 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		34A2C3911DBE525C005E8027 = {
 			isa = PBXGroup;
 			children = (
+				34A2C3A51DBE59FB005E8027 /* README.md */,
 				34A2C3A41DBE551A005E8027 /* .gitignore */,
 				34A2C39C1DBE525C005E8027 /* git_xcode */,
 				34A2C39B1DBE525C005E8027 /* Products */,
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A2C3A61DBE59FB005E8027 /* README.md in Sources */,
 				34A2C39E1DBE525C005E8027 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 				34A2C3A31DBE525C005E8027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
