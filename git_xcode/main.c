@@ -13,5 +13,6 @@ int main(int argc, const char * argv[]) {
     printf("Hello, World!\n");
     printf("Hello, Miku\n");
     printf("Hello, new Branch\n");
+    printf("Hello, branch1 conflict\n");
     return 0;
 }
