@@ -14,5 +14,7 @@ int main(int argc, const char * argv[]) {
     printf("Hello, Miku\n");
     printf("Hello, new Branch\n");
     printf("Hello, master conflict \n");
+    printf("Hello, branch1 conflict\n");
+    printf("Hello, merge!!\n");
     return 0;
 }
